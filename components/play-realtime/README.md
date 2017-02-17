@@ -22,4 +22,6 @@ And you can check out what is coming on kafka
 
 ### Docker
 
-    ./activator docker
+    ./activator clean docker:stage
+    ./activator docker:publishLocal
+    docker run alexmass/cff-play-realtime:0.2.6

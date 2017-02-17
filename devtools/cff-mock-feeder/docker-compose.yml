@@ -22,3 +22,9 @@ services:
     build: .
     depends_on:
       - kafka
+  play-realtime:
+    image: alexmass/cff-play-realtime:0.2.6
+    ports:
+      - "9000:9000"
+    depends_on:
+      - cff-mock-feeder

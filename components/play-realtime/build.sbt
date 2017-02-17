@@ -51,7 +51,7 @@ dockerBaseImage := "java:8"
 
 packageName in Docker := "alexmass/cff-play-realtime"
 
-version in Docker := "0.2.5"
+version in Docker := "0.2.6"
 
 dockerExposedPorts := Seq(9000)
 
